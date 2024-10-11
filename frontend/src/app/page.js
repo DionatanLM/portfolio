@@ -7,6 +7,7 @@ export default function Home() {
       <div className={styles.backgroundImg} />
       <div className={styles.backgroundBlur} />
       <div className={styles.backgroundBlur2} />
+      <div className={styles.backgroundBlur3} />
 
       <HomePage />
     </div>

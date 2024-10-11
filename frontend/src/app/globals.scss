@@ -43,11 +43,12 @@
 :root[data-theme="light"] {
   --bg-color: rgb(240 240 240 / 93%);
   --border-color: #e6e6e6;
-  --gradient-white: linear-gradient(180deg, #adadad, #c6c6c6);
+  --gradient-white: linear-gradient(180deg, #adadad85, #767676);
   --text-color: #767676;
   --button-text: #f9f9f9;
   --bg-card: #ebebeb;
   --bg-card-alt: #ebebeb;
+  --bg-card-new: #ebebeb;
   --bg-card-hover: #eeeeee;
   --bg-card-bx-shadow: #0000002e 0px 0px 10px 3px;
   --bg-opacity: 1;
@@ -61,6 +62,7 @@
   --button-text: #0d1117;
   --bg-card: #1a212b;
   --bg-card-alt: #303741;
+  --bg-card-new: #081823;
   --bg-card-hover: #313c4d;
   --bg-card-bx-shadow: #00000055 0px 0px 10px 3px;
   --bg-opacity: 0.05;

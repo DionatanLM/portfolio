@@ -5,7 +5,7 @@ import { skillsData } from "@/constants/SkillsConstants";
 
 const SkillSection = () => {
   return (
-    <div className={styles.skillSectionContainer}>
+    <div className={styles.skillSectionContainer} id="habilidades">
       <div className={styles.skillSectionTitle}>
         <p>Tecnologias que utilizo.</p>
         <h1>Habilidades</h1>

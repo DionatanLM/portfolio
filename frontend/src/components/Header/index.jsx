@@ -31,10 +31,10 @@ const Header = ({ colorChange }) => {
           <span className={styles.name}>Dionatan de Lima Moreira</span>
         </Link>
         <nav className={styles.nav}>
-          <a href="/#about">Sobre</a>
-
-          <a href="/projetos">Projetos</a>
-
+          {/* <a href="/#about">Sobre</a> */}
+          <a href="/#projetos">Projetos</a>
+          <a href="/#habilidades">Habilidades</a>
+          <a href="/#experiencia">Experiência</a>
           <a href="/#contact">Contato</a>
           {theme === "light" ? (
             <FiMoon

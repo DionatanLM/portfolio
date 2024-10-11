@@ -1,17 +1,16 @@
 "use client";
-import { useState } from "react";
+import { BsWhatsapp } from "react-icons/bs";
+import { FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
 import styles from "./Footer.module.scss";
-import { FiGithub, FiLinkedin, FiMail, FiMoon } from "react-icons/fi";
-import { BsSun, BsWhatsapp } from "react-icons/bs";
-import { useTheme } from "next-themes";
 
 const Footer = () => {
+  const year = new Date().getFullYear();
   return (
     <div className={styles.container}>
       <div className={styles.footer}>
         <div className={styles.logo}>
           <span className={styles.name}>
-            Desenvolvido com 💙 por <strong>Dionatan</strong>, © 2023.
+          © {year} Dionatan de Lima Moreira. Todos os direitos reservados. 💙
           </span>
         </div>
         <div className={styles.links}>

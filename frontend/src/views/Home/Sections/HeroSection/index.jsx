@@ -13,12 +13,12 @@ const HeroSection = () => {
         <span>
           Olá, meu nome é Dionatan, e sou um desenvolvedor full-stack. Tenho
           experiência em criar aplicações de completas e intuitivas usando as
-          linguagens JavaScript, TypeScript. Possuo habilidades de design, além
+          linguagens JavaScript e TypeScript. Possuo habilidades de design, além
           de técnicas de codificação.
         </span>
-        <button>
+        <a className={styles.buttonPrimary} href="/#projetos">
           Ver projetos <ArrowDownIcon />
-        </button>
+        </a>
       </div>
       <div>
         <div className={styles.heroSecondSectionContainer}>

@@ -44,9 +44,20 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+
+  
   &:hover {
     transform: translateY(-10px);
   }
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+[data-theme="light"] .projectCard {
+  background-color: #ebebeb; 
 }
 
 .projectCard img {
@@ -96,6 +107,17 @@
 
     &:nth-child(2) {
       width: 30%;
+    }
+  }
+}
+
+[data-theme="light"] .buttonContainer {
+  button {
+    background-color: #00000017;
+    color: var(--text-color);
+
+    &:hover {
+      background-color: #47b2ff1f;
     }
   }
 }

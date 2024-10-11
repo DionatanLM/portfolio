@@ -1,5 +1,5 @@
 export const skillsData = {
-  "Linguagens & Frameworks": [
+  "Dev": [
     {
       name: "Javascript",
       icon: "/img/icons/javascript.png",
@@ -113,6 +113,10 @@ export const skillsData = {
     {
       name: "Jira",
       icon: "/img/icons/Jira.png",
+    },
+    {
+      name: "Docker",
+      icon: "/img/icons/docker.png",
     },
   ],
 };
