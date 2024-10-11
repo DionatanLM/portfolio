@@ -10,7 +10,7 @@
     position: absolute;
     top: 80px;
 
-    background: #0d1117ed;
+    background: var(--bg-nav-off-canvas);
     backdrop-filter: blur(3px);
     animation: showSidebar 0.1s;
     transition: all 0.3s ease 0s;
@@ -20,13 +20,13 @@
 
     a {
       width: 100%;
-      padding: 10px 0;
-      color: #f9f9f9;
+      padding: 20px 0;
+      color: var(--text-color);
       font-size: 1.2rem;
       font-weight: 500;
       text-align: center;
       border-radius: 5px;
-
+      border-bottom: 1px solid var(--line-nav-off-canvas);
     }
 
     @keyframes showSidebar {
