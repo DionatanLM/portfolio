@@ -27,13 +27,13 @@ export default function RootLayout({ children }) {
     window.addEventListener("scroll", changeNavbarColor);
   }, []);
 
-  function scrollToTop() {
-    const c = document.documentElement.scrollTop || document.body.scrollTop;
-    if (c > 0) {
-      window.requestAnimationFrame(scrollToTop);
-      window.scrollTo(0, c - c / 8);
-    }
-  }
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <html lang="pt-br">
       <body className={inter.className}>

@@ -56,7 +56,7 @@ export const skillsData = {
     },
     {
       name: "Nest.JS",
-      icon: "/img/icons/nestjs.png",
+      icon: "/img/icons/NESTjs.png",
     },
     {
       name: "Express.JS",
@@ -90,7 +90,7 @@ export const skillsData = {
     },
     {
       name: "Photoshop",
-      icon: "/img/icons/Photoshop.png",
+      icon: "/img/icons/photoshop.png",
     },
   ],
   Ferramentas: [
@@ -112,7 +112,7 @@ export const skillsData = {
     },
     {
       name: "Jira",
-      icon: "/img/icons/Jira.png",
+      icon: "/img/icons/jira.png",
     },
     {
       name: "Docker",
